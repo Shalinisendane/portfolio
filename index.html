@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!--<image class="img" src="logo.png">-->
+            <div class="left"> Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#firstsection">Home</a></li>
+                    <li><a href="#secondsection">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#thirdsection">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection" id="firstsection">
+            <div class="leftsection">Hii,My Name is <span class="purple">Shalini Sendane</span>
+                <br> I am a Passionate
+                <span id="element"></span>
+                <div class="icon">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <a href="#" class="btn-box">More About Me</a>
+                <a href="#" class="btn-box">Download Resume</a>
+
+
+            </div>
+            </div>
+
+            <div class="rightsection"><img src="my photo.jpg"></div>
+        </section>
+        <hr>
+        <section class="secondsection" id="secondsection">
+            <div class="leftphoto"><img src="pg.png"></div>
+            <h1>Profile</h1>
+            <div class="box">
+                <p class="para">A Front End Developer With Entry-Level Experince With Specializing In Web Development
+                    And User Interface Design. Highly Motivated
+                    And Dedicated Front End Developer With A Solid Foundation In Front End Technology.
+                </p>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdsection" id="thirdsection">
+            <h1>About My Skills</h1>
+
+            <div class="box1" id="techskill">
+                <h1>Technical Skills</h1>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>C Language</li>
+                <li>C++ Language</li>
+
+            </div>
+            <div class="box1" id=softskill>
+                <h1>Soft Skills</h1>
+                <li>Problem solving</li>
+                <li>Adaptability</li>
+                <li>Patience</li>
+                <li>Team Work</li>
+                <li>Time Management</li>
+
+            </div>
+        </section>
+        
+        <footer>
+            <div class="center">
+                copyright&copy;www.Myportfolio.com
+            </div>
+        </footer>
+         </main>
+         
+   
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

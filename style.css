@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&family=Roboto+Slab:wght@500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(3, 50, 82);
+  color: white;
+  font-family: 'poppines', sans-serif;
+}
+
+nav {
+
+ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(24, 75, 109);
+  border-radius: 50px;
+position: sticky;
+
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+/*nav ul input{
+    float: right;
+  padding: 5px;
+  border: none;
+  margin-top: 5px;
+  margin-right: 16px;
+  font-size: 11px;
+  justify-content: center;
+  }
+  .fa fa-search{
+    float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+  }*/
+nav ul li {
+
+  list-style: none;
+  margin: 0px 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(70, 122, 133);
+  background-color: white;
+  font-size: 1.4rem;
+  border-radius: 5px;
+
+}
+
+.icon a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid rgb(92, 126, 133);
+  border-radius: 50%;
+  font-size: 40px;
+  color: rgb(64, 122, 133);
+  text-decoration: none;
+  margin: 30px 15px 30px 0;
+
+
+}
+
+.icon a:hover {
+  background: black;
+  color: white;
+  box-shadow: 0 0 20px whitesmoke;
+}
+
+.btn-box {
+  display: inline-flex;
+  padding: 12px 28px;
+  background: rgb(70, 122, 133);
+  border-radius: 48px;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+  /*font-weight:600 ;*/
+}
+
+.btn-box:hover {
+  background: black;
+  color: white;
+  box-shadow: 0 0 20px whitesmoke;
+
+}
+
+main hr {
+  border: 0;
+  background-color: rgb(106, 106, 182);
+  height: 1.2px;
+  margin: 60px 84px;
+}
+
+.left {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 120px 0px;
+}
+
+.firstsection>div {
+  width: 30%;
+}
+
+.leftsection {
+  /*background-color: red;*/
+  font-size: 3rem;
+  /*margin: 70px 0px;*/
+  align-items: center;
+  /*margin: 60px 0px;*/
+}
+
+/*.leftsection .button{
+    padding: 50px 0 ;
+  }
+  .leftsection .btn{
+    padding: 12px;
+    
+    background-color:rgb(34, 34, 131) ;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+  }*/
+.rightsection {
+
+  width: 50%;
+}
+
+.rightsection img {
+  width: 80%;
+  border-radius: 50%;
+  /*margin: 50px 0px;*/
+}
+
+.purple {
+  color: rgb(46, 149, 170);
+}
+
+#element {
+  color: rgb(43, 133, 151);
+}
+
+.secondsection {
+
+  margin: auto;
+  height: 30vh;
+}
+
+.secondsection h1 {
+  font-size: 1.9rem;
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 8rem;*/
+  background-color: rgb(68, 152, 168);
+  /*height: 30%;
+  margin-top: 9px;*/
+  color: white;
+  border: 10px;
+  border-radius: 10px;
+  border-color: black;
+  font-size: 1.3rem;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 5px 8px rgb(68, 152, 168);
+  width: 110vh;
+
+}
+
+.para {
+  margin: 15px;
+  padding: 20px;
+}
+
+.leftphoto {
+  float: left;
+  margin-right: 10px;
+  padding: 50px;
+}
+
+.secondsection img {
+  width: 200px;
+}
+.thirdsection{
+  height: 500px;
+}
+
+.thirdsection h1 {
+
+  font-size: 1.6rem;
+  /*margin-left:70px;*/
+  text-align: center;
+}
+
+#techskill {
+  margin-left:300px;
+  float: left;
+}
+
+#softskill {
+  margin-right: 300px;
+  float: right;
+}
+
+.box1 {
+
+  border: 2px solid rgb(162, 176, 179);
+  padding: 34px;
+  margin: 34px 6px;
+  border-radius: 28px;
+  background-color: rgb(68, 152, 168);
+  box-shadow: 5px 8px rgb(68, 152, 168);
+
+}
+#softskill li{
+  margin: 4px;
+  padding: 4px;
+  font-size:1.3rem;
+}
+#techskill li{
+  margin: 4px;
+  padding: 4px;
+  font-size: 1.3rem;
+}
+.box1 h1{
+  color:rgb(24, 75, 109) ;
+  margin: 8px;
+  padding: 10px;
+}
+footer{
+  padding:10px 20px;
+  background-color:rgb(28, 57, 77);
+  height: 50px;
+}
+.center{
+  text-align: center;
+}
+
